@@ -2,6 +2,7 @@
 <img src="assets/banner.png" width="100%" alt="" /><br>
 <h1>Yue Meng</h1>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&pause=1400&color=E8E8E6&center=true&vCenter=true&width=600&height=40&lines=Research+Scientist%2C+Robotics+%40+Apple;Signal+Temporal+Logic+%C3%97+Diffusion+Policies;MIT+REALM+Lab+alum" /><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&pause=1400&color=1B2A4A&center=true&vCenter=true&width=600&height=40&lines=Research+Scientist%2C+Robotics+%40+Apple;Signal+Temporal+Logic+%C3%97+Diffusion+Policies;MIT+REALM+Lab+alum" alt="Research Scientist, Robotics @ Apple — Signal Temporal Logic × Diffusion Policies — MIT REALM Lab alum" /></picture>
+<br>
 <sub><a href="http://mengyuest.github.io">mengyuest.github.io</a> &nbsp;·&nbsp; <a href="mailto:mengyuethu@gmail.com">mengyuethu@gmail.com</a></sub>
 </div>
 
@@ -14,14 +15,16 @@
 
 <div align="center">
 <sub>EDUCATION &amp; INDUSTRY COLLABORATIONS</sub><br><br>
-<img src="assets/logos/MIT-logo.png" height="46" alt="MIT" />&nbsp;&nbsp;<img src="assets/logos/UCSD-logo.png" height="46" alt="UC San Diego" />&nbsp;&nbsp;<img src="assets/logos/THU-logo.png" height="46" alt="Tsinghua University" />&nbsp;&nbsp;<img src="assets/logos/amazon-robotics.png" height="46" alt="Amazon Robotics" />&nbsp;&nbsp;<img src="assets/logos/google-logo.png" height="46" alt="Google" />&nbsp;&nbsp;<img src="assets/logos/microsoft-logo.png" height="46" alt="Microsoft" />&nbsp;&nbsp;<img src="assets/logos/mit-ibm-ai-lab-logo.png" height="46" alt="MIT-IBM Watson AI Lab" />&nbsp;&nbsp;<img src="assets/logos/hri-us-logo-2018.png" height="46" alt="Honda Research Institute US" />&nbsp;&nbsp;<img src="assets/logos/TuSimple-Logo.png" height="46" alt="TuSimple" />
+<a href="https://www.mit.edu"><img src="assets/logos/MIT-logo.png" height="46" alt="MIT" /></a>&nbsp;&nbsp;<a href="https://ucsd.edu"><img src="assets/logos/UCSD-logo.png" height="46" alt="UC San Diego" /></a>&nbsp;&nbsp;<a href="https://www.tsinghua.edu.cn"><img src="assets/logos/THU-logo.png" height="46" alt="Tsinghua University" /></a>&nbsp;&nbsp;<a href="https://www.amazonrobotics.com"><img src="assets/logos/amazon-robotics.png" height="46" alt="Amazon Robotics" /></a>&nbsp;&nbsp;<a href="https://research.google"><img src="assets/logos/google-logo.png" height="46" alt="Google" /></a>
+<br><br>
+<a href="https://www.microsoft.com/en-us/research/"><img src="assets/logos/microsoft-logo.png" height="46" alt="Microsoft" /></a>&nbsp;&nbsp;<a href="https://mitibmwatsonailab.mit.edu"><img src="assets/logos/mit-ibm-ai-lab-logo.png" height="46" alt="MIT-IBM Watson AI Lab" /></a>&nbsp;&nbsp;<a href="https://www.honda-ri.com"><img src="assets/logos/hri-us-logo-2018.png" height="46" alt="Honda Research Institute US" /></a>&nbsp;&nbsp;<a href="https://www.tusimple.com"><img src="assets/logos/TuSimple-Logo.png" height="46" alt="TuSimple" /></a>
 </div>
 
 <br>
 
 > Old habit — everything eventually gets written as a spec:
 >
-> $\Box(\text{explore} \land \text{formalize}) \;\land\; \Diamond(\text{ship robust policy})$
+> $\Box(\text{explore} \land \text{formalize}) \land \Diamond(\text{ship robust policy})$
 >
 > always keep exploring and formalizing, and eventually ship something that survives outside the lab.
 
@@ -34,8 +37,8 @@
 
 <br>
 
-<img src="assets/pstl_steer.gif" align="right" width="190" alt="pSTL-Diffusion-Policy — steering to avoid a collision" hspace="16" /><b>pSTL-Diffusion-Policy</b> &nbsp;<sub><i>RA-L / ICRA 2025</i></sub><br><sub>diffusion policies for driving whose diversity is shaped by the STL spec itself, not sampled noise</sub><br><br><sub>e.g. speed limit · track lanes · keep safe distance</sub><br><br><sub><a href="https://github.com/mengyuest/pSTL-diffusion-policy">code</a></sub>
-<br clear="right">
+<img src="assets/pstl_steer.gif" align="left" width="190" alt="pSTL-Diffusion-Policy — steering to avoid a collision" hspace="16" /><b>pSTL-Diffusion-Policy</b> &nbsp;<sub><i>RA-L / ICRA 2025</i></sub><br><sub>diffusion policies for driving whose diversity is shaped by the STL spec itself, not sampled noise</sub><br><br><sub>e.g. speed limit · track lanes · keep safe distance</sub><br><br><sub><a href="https://github.com/mengyuest/pSTL-diffusion-policy">code</a></sub>
+<br clear="left">
 
 <br>
 
