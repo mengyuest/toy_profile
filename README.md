@@ -22,11 +22,16 @@
 
 <br>
 
+> [!NOTE]
 > Old habit — everything eventually gets written as a spec:
 >
 > $\Box(\text{explore} \land \text{formalize}) \land \Diamond(\text{ship robust policy})$
 >
 > always keep exploring and formalizing, and eventually ship something that survives outside the lab.
+>
+> - [x] Signal Temporal Logic → diffusion policies
+> - [x] graph-encoded flow matching for planning
+> - [ ] robot learning that reliably ships outside the lab
 
 <br>
 
@@ -47,7 +52,12 @@
 
 <br>
 
-<p align="center"><sub>Earlier: <a href="https://github.com/mengyuest/AdaFuse">AdaFuse</a> (ICLR 2021) · <a href="https://github.com/mengyuest/AR-Net">AR-Net</a> (ECCV 2020) · <a href="https://github.com/mengyuest/SIGNet">SIGNet</a> (CVPR 2019)</sub></p>
+<div align="center">
+<details>
+<summary><sub><b>Earlier work</b></sub></summary>
+<sub><a href="https://github.com/mengyuest/AdaFuse">AdaFuse</a> — ICLR 2021, adaptive temporal fusion for efficient action recognition<br><a href="https://github.com/mengyuest/AR-Net">AR-Net</a> — ECCV 2020, learned resolution/skip policy for efficient video understanding<br><a href="https://github.com/mengyuest/SIGNet">SIGNet</a> — CVPR 2019, semantic-aware self-supervised monocular depth</sub>
+</details>
+</div>
 
 <br>
 
