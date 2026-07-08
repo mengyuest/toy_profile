@@ -1,10 +1,14 @@
 name: generate dynamic profile assets
 
-# Renders the contribution-snake animation and the live stats terminal card,
-# then pushes both to the `output` branch in one atomic commit — running them
-# as two separate workflows would let one overwrite the other's files on that
-# branch. Palette matches PROFILE_README.md throughout.
+# Renders the live stats terminal card and pushes it to the `output` branch.
+# Palette matches PROFILE_README.md throughout.
 # See ../README.md for the one-time deploy steps.
+#
+# (Previously also generated a contribution-snake animation via Platane/snk —
+# cut per user feedback: it's a non-interactive autoplay SVG with no viewer
+# control, purely decorative, and the piece of the page most likely to break
+# silently. If it comes back, add its step here rather than a second workflow,
+# since two workflows both deploying to `output` would clobber each other.)
 
 on:
   schedule:
@@ -25,16 +29,6 @@ jobs:
       - name: checkout (for scripts/generate_stats_svg.py)
         uses: actions/checkout@v4
 
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          # color_dots: exactly 5 colors, from 0-contribution up to the highest.
-          # Light variant: pale grey -> graphite-navy. Dark variant: near-black -> ivory.
-          outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%231b2a4a&color_dots=%23eceef1,%23c7ccd6,%238f97a8,%2351597a,%231b2a4a
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%23e8e8e6&color_dots=%231b2330,%232a3550,%233f4f78,%237482a8,%23e8e8e6
-
       - name: set up python
         uses: actions/setup-python@v5
         with:
@@ -52,3 +46,4 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

@@ -75,11 +75,5 @@
 <br>
 
 <div align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mengyuest/toy_profile/output/github-contribution-grid-snake-dark.svg" /><img src="https://raw.githubusercontent.com/mengyuest/toy_profile/output/github-contribution-grid-snake.svg" alt="contribution snake" /></picture>
-</div>
-
-<br>
-
-<div align="center">
 <sub><a href="http://mengyuest.github.io">site</a> &nbsp;·&nbsp; <a href="mailto:mengyuethu@gmail.com">email</a></sub>
 </div>
