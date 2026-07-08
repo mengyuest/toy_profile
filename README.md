@@ -3,13 +3,19 @@
 <h1>Yue Meng</h1>
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&pause=1400&color=E8E8E6&center=true&vCenter=true&width=600&height=40&lines=Research+Scientist%2C+Robotics+%40+Apple;Signal+Temporal+Logic+%C3%97+Diffusion+Policies;MIT+REALM+Lab+alum" /><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&pause=1400&color=1B2A4A&center=true&vCenter=true&width=600&height=40&lines=Research+Scientist%2C+Robotics+%40+Apple;Signal+Temporal+Logic+%C3%97+Diffusion+Policies;MIT+REALM+Lab+alum" alt="Research Scientist, Robotics @ Apple — Signal Temporal Logic × Diffusion Policies — MIT REALM Lab alum" /></picture>
 <br>
-<sub><a href="http://mengyuest.github.io">mengyuest.github.io</a> &nbsp;·&nbsp; <a href="mailto:mengyuethu@gmail.com">mengyuethu@gmail.com</a></sub>
+<sub><a href="http://mengyuest.github.io">mengyuest.github.io</a> &nbsp;·&nbsp; <a href="mailto:mengyuethu@gmail.com">mengyuethu@gmail.com</a> &nbsp;·&nbsp; <a href="https://scholar.google.com/citations?user=HQHZKyQAAAAJ&hl=en">Google Scholar</a></sub>
 </div>
 
 <br>
 
 <img src="assets/avatar.png" align="left" width="150" alt="Yue Meng" hspace="18" />Research Scientist on Apple's Robotics team, working where learning meets formal guarantees — Signal Temporal Logic, diffusion policies, and graph-encoded flow matching for long-horizon planning.<br><br>PhD from MIT AeroAstro (REALM Lab, advised by Chuchu Fan), by way of a master's at UC San Diego and an undergrad at Tsinghua.<br><br>Off the page, most Sundays find me on a soccer pitch.
 <br clear="left">
+
+<br>
+
+<div align="center">
+<img src="https://img.shields.io/static/v1?label=&message=Python&color=1B2A4A&style=flat-square&logo=python&logoColor=white" alt="Python" />&nbsp;<img src="https://img.shields.io/static/v1?label=&message=PyTorch&color=1B2A4A&style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />&nbsp;<img src="https://img.shields.io/static/v1?label=&message=ROS&color=1B2A4A&style=flat-square&logo=ros&logoColor=white" alt="ROS" />&nbsp;<img src="https://img.shields.io/static/v1?label=&message=LaTeX&color=1B2A4A&style=flat-square&logo=latex&logoColor=white" alt="LaTeX" />&nbsp;<img src="https://img.shields.io/static/v1?label=&message=Git&color=1B2A4A&style=flat-square&logo=git&logoColor=white" alt="Git" />&nbsp;<img src="https://img.shields.io/static/v1?label=&message=Linux&color=1B2A4A&style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+</div>
 
 <br>
 
